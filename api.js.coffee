@@ -25,7 +25,7 @@ class root.Astrid
   isSignedIn: ->
     @token?
 
-  #### API Functions
+  # ---- API Functions
 
   # Sign in with email and password. On success, will call the
   # success function with user object.
@@ -73,7 +73,7 @@ class root.Astrid
       else if error
         error response.message
 
-  #### Request and Response Functions
+  # --- Request and Response Functions
 
   constructRequest: (method, params) ->
     params.app_id ||= @apikey
