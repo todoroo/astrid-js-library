@@ -1,0 +1,11 @@
+Astrid JS Library
+
+This project is intended primarily as a guide on writing applications
+against Astrid's RPC web API. It also doubles as a perfectly capable (albeit
+limited) Javascript library for writing plugin apps for Astrid.
+
+While we hope that our API isn't changing all the time, it's possible that
+this project becomes out of date. If this is ever the case, create an issue
+for us and we'll get on it as soon as we can.
+
+Thanks!
